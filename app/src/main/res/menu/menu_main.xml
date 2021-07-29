@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/addImage"
+        android:title="Add Image"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_image"/>
+
+    <item
+        android:id="@+id/speech"
+        android:title="Read aloud"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_speech"/>
+    <item
+        android:id="@+id/save"
+        android:title="Save as"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_save"/>
+    <item
+        android:id="@+id/share"
+        android:title="Share via"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_share"/>
+</menu>
